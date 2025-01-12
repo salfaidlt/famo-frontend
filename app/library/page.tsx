@@ -38,8 +38,17 @@ export default function Library() {
           <div className="flex items-center space-x-4 p-4 bg-card rounded-lg hover:bg-card/80 transition-colors">
             <Heart size={40} className="text-primary" />
             <div>
-              <h2 className="font-medium">Liked Songs</h2>
-              <p className="text-sm text-muted-foreground">All your favorite tracks in one playlist</p>
+              <h2 className="font-medium">Musiques favorites</h2>
+              <p className="text-sm text-muted-foreground">Toutes vos musiques favorites dans une seule playlist</p>
+            </div>
+          </div>
+        </Link>
+        <Link href="/playlist/likes-playlists">
+          <div className="flex items-center space-x-4 p-4 bg-card rounded-lg hover:bg-card/80 transition-colors">
+            <Heart size={40} className="text-primary" />
+            <div>
+              <h2 className="font-medium">Playlists favorites</h2>
+              <p className="text-sm text-muted-foreground">Toutes vos playlists favorites dans une seule playlist</p>
             </div>
           </div>
         </Link>
