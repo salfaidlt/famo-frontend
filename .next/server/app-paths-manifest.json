@@ -1,0 +1,7 @@
+{
+  "/playlist/show-form/page": "app/playlist/show-form/page.js",
+  "/page": "app/page.js",
+  "/auth/signup/page": "app/auth/signup/page.js",
+  "/auth/signin/page": "app/auth/signin/page.js",
+  "/library/page": "app/library/page.js"
+}
