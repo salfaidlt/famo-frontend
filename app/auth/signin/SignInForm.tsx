@@ -36,8 +36,10 @@ export default function SignInForm() {
     } catch (error) {
       console.error(error)
     }
-    router.push('/') // Redirect to home page after sign in
-    window.location.reload();
+    setTimeout(() => {
+      router.push('/')
+    }, 2000) // Redirect to home page after sign in
+    // window.location.reload();
   }
 
   return (
